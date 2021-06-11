@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './css/App.css';
-import logo from './logo.svg';
-import './css/App.css';
+
+import Landing from './components/Landing';
+import Error from './components/404';
 
 function App() {
   return (
