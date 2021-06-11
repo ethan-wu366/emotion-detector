@@ -1,8 +1,8 @@
 import React from 'react';
 import $ from 'jquery';
 
-
 import '../css/Landing.css';
+import TestImage from '../img/testimage.png'
 
 const Landing = () => {
 	$(document).ready(function () {
@@ -32,7 +32,20 @@ const Landing = () => {
 	});
 	return (
 		<div className="landing">
-			Hello
+            <div className="landing-top">
+                <h1>Workplace Emotion Detector</h1>
+                <h2>from Justin Lin, Joshua Lin, Ethan Wu</h2>
+            </div>
+			<div className="landing-bottom">
+                <div id="test-image">
+                    <img
+                        src={TestImage}
+                        alt="smile"
+                        className="selectDisable"
+                        style={{ width: "250px", left: "0px", top: "312px" }}
+                    />
+                </div>
+            </div>
 		</div>
 	);
 };

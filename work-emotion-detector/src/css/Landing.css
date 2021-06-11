@@ -1,0 +1,66 @@
+.landing h1 {
+    position: absolute;
+    width: 776px;
+    height: 61px;
+    left: 90px;
+    top: 41px;
+
+    font-family: LEMON MILK;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 61px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.landing h2 {
+    position: absolute;
+    width: 434px;
+    height: 27px;
+    left: 144px;
+    top: 102px;
+
+    font-family: LEMON MILK;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+.landing .landing-top {
+    background-color: white;
+
+}
+
+.landing .landing-bottom {
+    position: fixed; 
+
+    background-color: #A6CFD5;
+    margin-top: 15%;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+
+.landing .test-image {
+    position: absolute;
+    width: 598px;
+    height: 471px;
+    left: 179px;
+    top: 312px;
+}
