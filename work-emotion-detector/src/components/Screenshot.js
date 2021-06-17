@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Webcam from "react-webcam";
 
+import Button from 'react-bootstrap/Button';
 
 const videoConstraints = {
     width: 1280,
@@ -28,7 +29,7 @@ const WebcamCapture = () => {
           width={480}
           videoConstraints={videoConstraints}
         />
-        <button onClick={capture}>Capture Emotion</button>
+        <Button onClick={capture}>Capture Emotion</Button>
         {imgSrc && (
           <img
             src={imgSrc}
