@@ -3,6 +3,7 @@ import $ from 'jquery';
 
 import '../css/Landing.css';
 import TestImage from '../img/testimage.png'
+import WebCAM from "./Webcam"
 
 
 const Landing = () => {
@@ -46,7 +47,9 @@ const Landing = () => {
                         style={{ width: "250px", left: "0px", top: "312px" }}
                     />
                 </div>
-			
+				<div>
+					<WebCAM> </WebCAM>
+				</div>
             </div>
 		</div>
 	);

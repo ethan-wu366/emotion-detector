@@ -17,3 +17,16 @@ ReactDOM.render(
 		/>,
 	document.getElementById('root')
   );
+
+  const Webcam = (props) => {
+
+    return (
+        <Webcam>
+            
+        </Webcam>
+    );
+};
+
+
+
+export default Webcam;
