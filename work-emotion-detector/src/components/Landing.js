@@ -48,7 +48,7 @@ const Landing = () => {
                     />
                 </div>
 				<div>
-					<WebCAM> </WebCAM>
+					
 				</div>
             </div>
 		</div>

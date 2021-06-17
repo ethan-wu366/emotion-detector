@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ReactDOM from 'react-dom';
-import Webcam from "react-webcam";
+import WebCamera from "react-webcam";
 
 const videoConstraints = {
 	width: { min: 480 },
@@ -10,7 +10,7 @@ const videoConstraints = {
   };
 
 ReactDOM.render(
-	<Webcam 
+	<WebCamera 
 		videoConstraints={videoConstraints} 
 		width={480} 
 		height={720}
@@ -21,9 +21,9 @@ ReactDOM.render(
   const Webcam = (props) => {
 
     return (
-        <Webcam>
-            
-        </Webcam>
+        <WebCamera>
+
+        </WebCamera>
     );
 };
 
