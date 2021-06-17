@@ -53,8 +53,8 @@
     background-color: #A6CFD5;
     margin-top: 15%;
     width: 100%;
-    /* height: auto; 
-    min-height: 100%;*/
+    height: auto; 
+    min-height: 100%;
 }
 
 .landing .test-image {
@@ -64,3 +64,8 @@
     left: 179px;
     top: 312px;
 }
+
+.landing .camera-size {
+    width: 60%;
+}
+

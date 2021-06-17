@@ -1,0 +1,6 @@
+img,
+video,
+button {
+  display: block;
+  height: 50px;
+}

@@ -5,6 +5,7 @@ import '../css/Landing.css';
 import TestImage from '../img/testimage.png'
 import WebCAM from "./Webcam"
 import ScreenGrab from "./Screenshot"
+import WebcamCapture from './Screenshot';
 
 const Landing = () => {
 	$(document).ready(function () {
@@ -39,8 +40,10 @@ const Landing = () => {
                 <h2>from Justin Lin, Joshua Lin, Ethan Wu</h2>
             </div>
 			<div className="landing-bottom">
-				<div>
-					<ScreenGrab></ScreenGrab>
+				<div className="camera-size">
+					<WebcamCapture
+					
+					/>
 				</div>
             </div>
 		</div>
