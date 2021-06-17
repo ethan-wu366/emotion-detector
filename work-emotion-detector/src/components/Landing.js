@@ -4,7 +4,7 @@ import $ from 'jquery';
 import '../css/Landing.css';
 import TestImage from '../img/testimage.png'
 import WebCAM from "./Webcam"
-
+import ScreenGrab from "./Screenshot"
 
 const Landing = () => {
 	$(document).ready(function () {
@@ -39,16 +39,8 @@ const Landing = () => {
                 <h2>from Justin Lin, Joshua Lin, Ethan Wu</h2>
             </div>
 			<div className="landing-bottom">
-                <div id="test-image">
-                    <img
-                        src={TestImage}
-                        alt="smile"
-                        className="selectDisable"
-                        style={{ width: "250px", left: "0px", top: "312px" }}
-                    />
-                </div>
 				<div>
-				
+					<ScreenGrab></ScreenGrab>
 				</div>
             </div>
 		</div>

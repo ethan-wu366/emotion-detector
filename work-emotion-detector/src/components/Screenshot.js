@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import Webcam from "react-webcam";
 
 const WebcamCapture = () => {
     const webcamRef = React.useRef(null);
@@ -28,5 +30,5 @@ const WebcamCapture = () => {
   
   ReactDOM.render(<WebcamCapture />, document.getElementById("root"));
   
-  // https://www.npmjs.com/package/react-webcam
+  export default WebcamCapture;
   
