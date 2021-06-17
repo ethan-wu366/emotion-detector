@@ -12,7 +12,7 @@ function App() {
       <Router>
 				<Switch>
 					<Route path="/">
-						<Landing />
+						<Test />
 					</Route>
 					<Route path="/test">
 						<Test />

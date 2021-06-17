@@ -3,30 +3,36 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import WebCamera from "react-webcam";
 
+
 const videoConstraints = {
-	width: { min: 80 },
-	height: { min: 120 },
-	aspectRatio: 0.6666666667
+    width: 1280,
+    height: 720,
+    facingMode: "user"
   };
-
-ReactDOM.render(
-	<WebCamera 
-		videoConstraints={videoConstraints} 
-		width={80} 
-		height={120}
-		/>,
-	document.getElementById('root')
-  );
-
-  const Webcam = (props) => {
-
-    return (
-        <WebCamera>
-
-        </WebCamera>
+  
+  const Webcam = () => {
+    const webcamRef = React.useRef(null);
+  
+    const capture = React.useCallback(
+      () => {
+        const imageSrc = webcamRef.current.getScreenshot();
+      },
+      [webcamRef]
     );
-};
-
-
+  
+    return (
+      <>
+        <WebCamera
+          audio={false}
+          height={270}
+          ref={webcamRef}
+          screenshotFormat="image/jpeg"
+          width={480}
+          videoConstraints={videoConstraints}
+        />
+        <button onClick={capture}>Capture photo</button>
+      </>
+    );
+  };
 
 export default Webcam;

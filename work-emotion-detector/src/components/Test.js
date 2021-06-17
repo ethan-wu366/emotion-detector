@@ -1,7 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
 
-import '../css/Landing.css';
+// import '../css/Landing.css';
 import TestImage from '../img/testimage.png'
 import WebCAM from "./Webcam"
 import ScreenGrab from "./Screenshot"
@@ -34,18 +34,8 @@ const Test = () => {
 		});
 	});
 	return (
-		<div className="landing">
-            <div className="landing-top">
-                <h1>Workplace Emotion Detector</h1>
-                <h2>from Justin Lin, Joshua Lin, Ethan Wu</h2>
-            </div>
-			<div className="landing-bottom">
-				<div className="camera-size">
-					<WebcamCapture
-					
-					/>
-				</div>
-            </div>
+		<div >
+            <WebCAM></WebCAM>
 		</div>
 	);
 };
