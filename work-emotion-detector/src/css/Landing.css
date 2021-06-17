@@ -40,7 +40,87 @@
     color: #000000;
 }
 
+.landing h3 {
+    position: absolute;
+    width: 433px;
+    height: 56px;
+    left: 783px;
+    top: 20px;
 
+    font-family: LEMON MILK;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.landing h4 {
+    position: absolute;
+    width: 174px;
+    height: 41px;
+    left: 885px;
+    top: 140px;
+
+    font-family: LEMON MILK;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.landing h5 {
+    position: absolute;
+    width: 175px;
+    height: 41px;
+    left: 885px;
+    top: 200px;
+
+    font-family: LEMON MILK;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.landing h6 {
+    position: absolute;
+    width: 213px;
+    height: 41px;
+    left: 885px;
+    top: 260px;
+
+    font-family: LEMON MILK;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
 
 .landing .landing-top {
     background-color: white;
@@ -67,5 +147,6 @@
 
 .landing .camera-size {
     width: 60%;
+    margin-top: 50px;
 }
 

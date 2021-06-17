@@ -42,9 +42,12 @@ const Landing = () => {
 			<div className="landing-bottom">
 				<div className="camera-size">
 					<WebcamCapture
-					
 					/>
 				</div>
+				<h3>Emotion Range:</h3>
+				<h4>Angry - 10</h4>
+				<h5>Happy - 60</h5>
+				<h6>Neutral - 30</h6>
             </div>
 		</div>
 	);

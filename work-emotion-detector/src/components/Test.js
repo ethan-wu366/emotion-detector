@@ -35,7 +35,7 @@ const Test = () => {
 	});
 	return (
 		<div >
-            <WebCAM></WebCAM>
+            <WebcamCapture></WebcamCapture>
 		</div>
 	);
 };
