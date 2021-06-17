@@ -4,6 +4,7 @@ import './css/App.css';
 
 import Landing from './components/Landing';
 import Error from './components/404';
+import Test from './components/Test';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
 				<Switch>
 					<Route path="/">
 						<Landing />
+					</Route>
+					<Route path="/test">
+						<Test />
 					</Route>
 					<Route default>
 						<Error />
