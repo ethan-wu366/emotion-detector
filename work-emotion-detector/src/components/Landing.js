@@ -4,6 +4,7 @@ import $ from 'jquery';
 import '../css/Landing.css';
 import TestImage from '../img/testimage.png'
 
+
 const Landing = () => {
 	$(document).ready(function () {
 		/* Check the location of each desired element */
@@ -45,6 +46,7 @@ const Landing = () => {
                         style={{ width: "250px", left: "0px", top: "312px" }}
                     />
                 </div>
+			
             </div>
 		</div>
 	);
